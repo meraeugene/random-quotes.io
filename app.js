@@ -11,32 +11,38 @@ const arrayOfQuotes = [{
     person: 'Anonymous'
 }, {
     quote: '"Mas mabuti nang absent kaysa mainlove sa classmate ahahhaah"',
-    person: 'Mabe Homophobic'
+    person: 'Mabe'
 }, {
     quote: '"Parang naiinlove na ako sa mga ngiti ni classmate bahaha"',
     person: 'Jiki'
 }, {
     quote: '"Kung libre mangarap bakit may tuition?"',
-    person: 'Pabigat na reklamador'
+    person: 'Secret'
 }, {
     quote: '"Kokopya ka nalang rereklamo ka pa sa sulat ko, nangto"',
-    person: 'Classmate na short tempered'
+    person: 'Classmate'
 }, {
     quote: '"Kung education is the key, sino naglock?"',
-    person: 'Emman baho pota'
+    person: 'Emman'
 }, {
     quote: '"What if crush ko si maam? ahahah pota"',
     person: 'Jim'
+}, {
+    quote: '"Mabe ❤️ Shine"',
+    person: 'Joshua'
+}, {
+    quote: '"Kapag kumain ako ng happy meal, sasaya na ba ako?"',
+    person: '~'
+}, {
+    quote: '"Kung magiging subject ka sa school, gusto ko ikaw ang PINAKAMAHIRAP para lagi sayo ako BABAGSAK."',
+    person: '~'
+}, {
+    quote: '"bagaag nawng anang ga relax nga college oi"',
+    person: '~'
+}, {
+    quote: '"Daming formula sa arithmetic naguguluhan na ako kung gusto mo ba ako',
+    person: '~'
 }];
-
-// button.addEventListener('click', function () { //himo event listner sa button kag function
-
-//     let random = Math.floor(Math.random() * arrayOfQuotes.length); //amo ni ang formula para mag generate random, i times mo sa array
-
-//     quote.innerText = arrayOfQuotes[random].quote; //ari para maislan tung text nga quote
-//     person.innerText = arrayOfQuotes[random].person; //ari para maislan tung text nga person
-
-// })
 
 // random button
 for (i = 0; i < button.length; i++) {
